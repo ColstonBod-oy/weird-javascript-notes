@@ -17,11 +17,11 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![GitHub][github-shield]][github-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-[![Twitter][twitter-shield]][twitter-url]
-[![Facebook][facebook-shield]][facebook-url]
-[![Reddit][reddit-shield]][reddit-url]
+[![GitHub][github-shield]][github-url]&ensp;
+[![LinkedIn][linkedin-shield]][linkedin-url]&ensp;
+[![Twitter][twitter-shield]][twitter-url]&ensp;
+[![Facebook][facebook-shield]][facebook-url]&ensp;
+[![Reddit][reddit-shield]][reddit-url]&ensp;
 
 
 
@@ -32,19 +32,19 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Weird JavaScript Notes</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    My lifelong notes about the weird 😵‍💫 and wild 🤪 features of JavaScript!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://reactjs.org/docs/getting-started.html">React JS Docs</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://html-css-js.com/js/">JavaScript Cheat Sheet</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="http://www.developer-cheatsheets.com/react">React Cheat Sheet</a>
   </p>
 </div>
 
