@@ -55,13 +55,13 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#ℹ️-about-the-project">About The Project</a>
+      <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#readme-template">README Template</a></li>
       </ul>
     </li>
     <li>
-      <a href="#🎩-decoupling-object-properties">Decoupling Object Properties</a>
+      <a href="#decoupling-object-properties">Decoupling Object Properties</a>
       <ul>
         <li><a href="#example">Example</a></li>
         <li><a href="#practical-use">Practical Use</a></li>
@@ -73,7 +73,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## ℹ️ About The Project
+ℹ️ ## About The Project
 
 ![Banner][react-logo]
 
@@ -93,7 +93,7 @@ Here's where I got this template btw, also don't forget to follow me on my socia
 
 
 <!-- DEC0UPLING OBJECT PROPERTIES -->
-## 🎩 Decoupling Object Properties
+🎩 ## Decoupling Object Properties
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
