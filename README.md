@@ -93,7 +93,7 @@ Here's where I got this template btw, also don't forget to follow me on my socia
 
 
 <!-- DEC0UPLING OBJECT PROPERTIES -->
-## 🎩 Decoupling Object Properties
+## U+1F3A9 Decoupling Object Properties
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
