@@ -99,6 +99,8 @@ We could decouple object properties and use their values as properties of anothe
 
 ### Example
 
+_Notice how we use the bracket notation instead of the dot-notation for the last 2 properties of the cast object, it's because the decoupled values are not valid JavaScript identifiers (for example, a property name that has a space or a hyphen, or that starts with a number)._
+
   ```js
   const spells = {
     basic: "fire",
@@ -119,21 +121,58 @@ We could decouple object properties and use their values as properties of anothe
 
 ### Practical Use
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Below is a basic example of how we could use this feature when working with React's useReducer hook._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+  ```js
+  const initialState = {
+    username: "",
+    password: "",
+  }
+  
+  export default function LoginForm() {
+    const [state, dispatch] = useReducer((state, action) => {
+      switch (action.type) {
+        case "TEXT_FIELD":
+          // Decoupling fieldType property from dispatch
+          return { ...state, [action.fieldType]: action.payload }; 
+        default:
+          return state;
+      }
+    }, initialState);
+    
+    const { username, password } = state;
+    
+    return (
+      <div className="App">
+        <form className="form">
+          <p>Please Login!</p>
+          <input 
+            type="text" 
+            value={username} 
+            onChange={(e) => 
+              dispatch({ 
+                type: "TEXT_FIELD", 
+                fieldType: "username", 
+                payload: e.currentTarget.value, 
+              })
+            }
+          />
+          <input 
+            type="password" 
+            value={password} 
+            onChange={(e) => 
+              dispatch({ 
+                type: "TEXT_FIELD", 
+                fieldType: "password", 
+                payload: e.currentTarget.value, 
+              })
+            }
+          />
+        </form>
+      </div>
+    );
+  }
+  ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
