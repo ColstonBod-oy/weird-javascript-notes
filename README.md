@@ -57,7 +57,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#readme-template">README Template</a></li>
       </ul>
     </li>
     <li>
