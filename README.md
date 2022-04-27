@@ -61,7 +61,7 @@
       </ul>
     </li>
     <li>
-      <a href="#🎩decoupling-object-properties">Decoupling Object Properties</a>
+      <a href="#U+1F3A9-decoupling-object-properties">Decoupling Object Properties</a>
       <ul>
         <li><a href="#example">Example</a></li>
         <li><a href="#practical-use">Practical Use</a></li>
