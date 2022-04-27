@@ -99,10 +99,22 @@ We could decouple object properties and use their values as properties of anothe
 
 ### Example
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
+  ```js
+  const spells = {
+    basic: "fire",
+    special: "high voltage",
+    ultimate: "💧",
+  }
+
+  const cast = {
+    [spells.basic]: "🔥",
+    [spells.special]: "⚡",
+    [spells.ultimate]: "🌊",
+  }
+
+  console.log(cast.fire);            // 🔥
+  console.log(cast["high voltage"]); // ⚡
+  console.log(cast["💧"]);           // 🌊
   ```
 
 ### Practical Use
