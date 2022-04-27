@@ -61,7 +61,7 @@
       </ul>
     </li>
     <li>
-      <a href="#U+1F3A9-decoupling-object-properties">Decoupling Object Properties</a>
+      <a href="#:tophat:-decoupling-object-properties">Decoupling Object Properties</a>
       <ul>
         <li><a href="#example">Example</a></li>
         <li><a href="#practical-use">Practical Use</a></li>
@@ -93,7 +93,7 @@ Here's where I got this template btw, also don't forget to follow me on my socia
 
 
 <!-- DEC0UPLING OBJECT PROPERTIES -->
-## U+1F3A9 Decoupling Object Properties
+## :tophat: Decoupling Object Properties
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
