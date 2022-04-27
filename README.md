@@ -247,4 +247,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [facebook-url]: https://www.facebook.com/colston.bodoy
 [reddit-shield]: https://img.shields.io/reddit/user-karma/combined/Coldz-Stone?style=social
 [reddit-url]: https://www.reddit.com/user/Coldz-Stone
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/react-logo.png
