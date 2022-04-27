@@ -81,7 +81,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Banner][react-logo]]
+[Banner][react-logo]
 
 Hello! my name is Colston D. Bod-oy, I'm a React developer and was currently taking my 2nd year of college on the time that I made this repo. I'm an aspiring developer and I would like to work for the big FAANG companies someday 😉.  
   
