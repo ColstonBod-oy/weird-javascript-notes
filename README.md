@@ -61,7 +61,7 @@
       </ul>
     </li>
     <li>
-      <a href="#:tophat:-decoupling-object-properties">Decoupling Object Properties</a>
+      <a href="#tophat:-decoupling-object-properties">Decoupling Object Properties</a>
       <ul>
         <li><a href="#example">Example</a></li>
         <li><a href="#practical-use">Practical Use</a></li>
