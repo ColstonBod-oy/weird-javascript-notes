@@ -243,6 +243,30 @@ _IIFEs can also be used to manage private data by returning functions that creat
   robot.setPart("🤖");
   console.log(robot.getPart()); // 🤖
   ```
+
+_Let's say you're using jQuery and another library that also assigns to the $ global variable, we can resolve this naming conflict by wrapping the other piece of code with an IIFE that uses $ as a parameter name. We can also do a similar thing if we wanted to capture the global object no matter where we run our code. For example, the global object in the browser is window while Node.js uses global. Aliasing variable names can also be used to optimize code such that it can be minified more efficiently where a JavaScript minifier like UglifyJS can shorten the function's parameter names to single-letter identifiers._
+
+  ```js
+  window.$ = function somethingElse() {
+    // ...
+  };
+
+  (function($) {
+    // ...
+  })(jQuery);
+  
+  (function(global) {
+    // ...
+  })(this);
+  
+  (function(window, document, undefined) {
+    // ...
+  })(window, document);
+
+  (function(w, d, u) {
+    // ...
+  })(window, document);
+  ```
   
 
 
