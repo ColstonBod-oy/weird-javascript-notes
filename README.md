@@ -63,8 +63,15 @@
     <li>
       <a href="#decoupling-object-properties">Decoupling Object Properties</a>
       <ul>
-        <li><a href="#example">Example</a></li>
-        <li><a href="#practical-use">Practical Use</a></li>
+        <li><a href="#examples">Examples</a></li>
+        <li><a href="#practical-uses">Practical Uses</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#immediately-invoked-function-expression">Immediately Invoked Function Expression</a>
+      <ul>
+        <li><a href="#examples">Examples</a></li>
+        <li><a href="#practical-uses">Practical Uses</a></li>
       </ul>
     </li>
   </ol>
@@ -97,7 +104,7 @@ Here's where I got this template btw, also don't forget to follow me on my socia
 
 We could decouple object properties and use their values as properties of another object.
 
-### Example
+### Examples
 
 _Notice how we use the bracket notation instead of the dot-notation for the last 2 properties of the cast object, it's because the decoupled values are not valid JavaScript identifiers (for example, a property name that has a space or a hyphen, or that starts with a number)._
 
@@ -119,7 +126,7 @@ _Notice how we use the bracket notation instead of the dot-notation for the last
   console.log(cast["💧"]);           // 🌊
   ```
 
-### Practical Use
+### Practical Uses
 
 _Below is a basic example of how we could use this feature when working with React's useReducer hook._
 
@@ -176,6 +183,51 @@ _Below is a basic example of how we could use this feature when working with Rea
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+
+<!-- IMMEDIATELY INVOKED FUNCTION EXPRESSION -->
+## Immediately Invoked Function Expression (IIFE)
+
+We can create and call a function expression at the same time.
+
+### Examples
+
+_Notice the different ways we can create an IIFE. For an IIFE to work, we first needed to change the context of the function keyword to be an expression either by enclosing it inside parentheses or using operators. Note that the ! operator will negate the returned boolean value of the IIFE and if the expression doesn't return anything, it would just result to true, while the + operator will try to add the returned value but since it would always have no value on the left-hand side of the operator, no further actions would be executed._
+
+  ```js
+  (function() {
+    console.log("✔️")
+  })(); // ✔️
+
+  !function() {
+    console.log("✔️")
+  }(); // ✔️
+
+  +function() {
+    console.log("✔️")
+  }(); // ✔️
+  ```
+
+### Practical Uses
+
+_If your code doesn't support ES6, you can't use the new let and const keywords for creating block-scoped local variables. You'll have to resort to classic function scoping offered by IIFEs._
+
+  ```js
+  {
+    let part = "🦾";
+    console.log(part);
+  }
+
+  part; // ReferenceError: part is not defined
+
+  (function() {
+    var part = "🦾";
+    console.log(part);
+  })();
+
+  part; // ReferenceError: part is not defined
+  ```
+  
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
