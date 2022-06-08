@@ -195,6 +195,11 @@ We can create and call a function expression at the same time.
 _Notice the different ways we can create an IIFE. For an IIFE to work, we first needed to change the context of the function keyword to be an expression either by enclosing it inside parentheses or using operators. Note that the ! operator will negate the returned boolean value of the IIFE and if the expression doesn't return anything, it would just result to true, while the + operator will try to add the returned value but since it would always have no value on the left-hand side of the operator, no further actions would be executed._
 
   ```js
+  var functionEx;
+  (functionEx = function() {
+    console.log("✔️")
+  })(); // ✔️
+
   (function() {
     console.log("✔️")
   })(); // ✔️
@@ -267,7 +272,29 @@ _Let's say you're using jQuery and another library that also assigns to the $ gl
     // ...
   })(window, document);
   ```
-  
+
+_Not having the let keyword of ES6 can also cause unexpected results when running asynchronous tasks inside a loop as the value for i would immediately be changed until the loop condition wasn't fulfilled anymore, we can use IIFEs again for this case._
+
+  ```js
+  for (var i = 0; i < 3; i++) {
+    setTimeout(() => console.log(`Current index: ${i}`), 100);
+    // Current index: 3
+    // Current index: 3
+    // Current index: 3
+  }
+
+  for (var i = 0; i < 3; i++) {
+    (function(index) {
+      setTimeout(() => console.log(`Current index: ${index}`), 100);
+    })(i);
+    // Current index: 0
+    // Current index: 1
+    // Current index: 2
+  }
+  ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
