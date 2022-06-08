@@ -220,7 +220,7 @@ _If your code doesn't support ES6, you can't use the new let and const keywords 
   ```js
   {
     let part = "🦾";
-    console.log(part);
+    console.log(part); // 🦾
   }
 
   part; // ReferenceError: part is not defined
@@ -228,7 +228,7 @@ _If your code doesn't support ES6, you can't use the new let and const keywords 
   (function() {
     var part = "🦾";
     console.log(part);
-  })();
+  })(); // 🦾
 
   part; // ReferenceError: part is not defined
   ```
