@@ -68,7 +68,7 @@
       </ul>
     </li>
     <li>
-      <a href="#immediately-invoked-function-expression-(iife)">Immediately Invoked Function Expression</a>
+      <a href="#immediately-invoked-function-expression-(IIFE)">Immediately Invoked Function Expression</a>
       <ul>
         <li><a href="#examples">Examples</a></li>
         <li><a href="#practical-uses">Practical Uses</a></li>
