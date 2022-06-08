@@ -68,7 +68,7 @@
       </ul>
     </li>
     <li>
-      <a href="#immediately-invoked-function-expression-(IIFE)">Immediately Invoked Function Expression</a>
+      <a href="#immediately-invoked-function-expression">Immediately Invoked Function Expression</a>
       <ul>
         <li><a href="#examples">Examples</a></li>
         <li><a href="#practical-uses">Practical Uses</a></li>
@@ -186,7 +186,7 @@ _Below is a basic example of how we could use this feature when working with Rea
 
 
 <!-- IMMEDIATELY INVOKED FUNCTION EXPRESSION -->
-## Immediately Invoked Function Expression (IIFE)
+## Immediately Invoked Function Expression 
 
 We can create and call a function expression at the same time.
 
