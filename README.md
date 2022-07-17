@@ -18,9 +18,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![GitHub][github-shield]][github-url]&ensp;
-[![LinkedIn][linkedin-shield]][linkedin-url]&ensp;
 [![Twitter][twitter-shield]][twitter-url]&ensp;
-[![Facebook][facebook-shield]][facebook-url]&ensp;
 [![Reddit][reddit-shield]][reddit-url]&ensp;
 
 
@@ -301,12 +299,8 @@ _Not having the let keyword of ES6 can also cause unexpected results when runnin
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [github-shield]: https://img.shields.io/github/followers/ColstonBod-oy?style=social
 [github-url]: https://github.com/ColstonBod-oy
-[linkedin-shield]: https://img.shields.io/badge/Connections-151-blue?style=social&logo=linkedin
-[linkedin-url]: https://www.linkedin.com/in/colston-bod-oy-60a7521a4/
 [twitter-shield]: https://img.shields.io/twitter/follow/OyColston?style=social
 [twitter-url]: https://twitter.com/OyColston
-[facebook-shield]: https://img.shields.io/badge/Friends-512-blue?style=social&logo=facebook
-[facebook-url]: https://www.facebook.com/colston.bodoy
 [reddit-shield]: https://img.shields.io/reddit/user-karma/combined/Coldz-Stone?style=social
 [reddit-url]: https://www.reddit.com/user/Coldz-Stone
 [react-logo]: images/react-logo.png
