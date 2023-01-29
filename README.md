@@ -54,25 +54,39 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#readme-template">README Template</a></li>
-      </ul>
+      <details>
+        <summary>1a</summary>
+        <ul>
+          <li><a href="#readme-template">README Template</a></li>
+        </ul>
+      </details>
     </li>
     <li>
       <a href="#decoupling-object-properties">Decoupling Object Properties</a>
-      <ul>
-        <li><a href="#2a-examples">2a Examples</a></li>
-        <li><a href="#2a-practical-uses">2a Practical Uses</a></li>
-      </ul>
+      <details>
+        <summary>2a</summary>
+        <ul>
+          <li><a href="#2a-examples">2a Examples</a></li>
+          <li><a href="#2a-practical-uses">2a Practical Uses</a></li>
+        </ul>
+      </details>
     </li>
     <li>
       <a href="#immediately-invoked-function-expression">Immediately Invoked Function Expression</a>
-      <ul>
-        <li><a href="#3a-examples">3a Examples</a></li>
-        <li><a href="#3a-practical-uses">3a Practical Uses</a></li>
-        <li><a href="#3b-examples">3b Examples</a></li>
-        <li><a href="#3b-practical-uses">3b Practical Uses</a></li>
-      </ul>
+      <details>
+        <summary>3a</summary>
+        <ul>
+          <li><a href="#3a-examples">3a Examples</a></li>
+          <li><a href="#3a-practical-uses">3a Practical Uses</a></li>
+        </ul>
+      </details>
+      <details>
+        <summary>3b</summary>
+        <ul>
+          <li><a href="#3b-examples">3b Examples</a></li>
+          <li><a href="#3b-practical-uses">3b Practical Uses</a></li>
+        </ul>
+      </details>
     </li>
   </ol>
 </details>
