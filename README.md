@@ -61,15 +61,17 @@
     <li>
       <a href="#decoupling-object-properties">Decoupling Object Properties</a>
       <ul>
-        <li><a href="#2a-examples">Examples</a></li>
-        <li><a href="#2b-practical-uses">Practical Uses</a></li>
+        <li><a href="#2a-examples">2a Examples</a></li>
+        <li><a href="#2a-practical-uses">2a Practical Uses</a></li>
       </ul>
     </li>
     <li>
       <a href="#immediately-invoked-function-expression">Immediately Invoked Function Expression</a>
       <ul>
-        <li><a href="#3a-examples">Examples</a></li>
-        <li><a href="#3b-practical-uses">Practical Uses</a></li>
+        <li><a href="#3a-examples">3a Examples</a></li>
+        <li><a href="#3a-practical-uses">3a Practical Uses</a></li>
+        <li><a href="#3b-examples">3b Examples</a></li>
+        <li><a href="#3b-practical-uses">3b Practical Uses</a></li>
       </ul>
     </li>
   </ol>
@@ -124,7 +126,7 @@ _Notice how we use the bracket notation instead of the dot-notation for the last
   console.log(cast["💧"]);           // 🌊
   ```
 
-### 2b Practical Uses
+### 2a Practical Uses
 
 _Below is a basic example of how we could use this feature when working with React's useReducer hook._
 
@@ -211,7 +213,7 @@ _Notice the different ways we can create an IIFE. For an IIFE to work, we first 
   }(); // ✔️
   ```
 
-### 3b Practical Uses
+### 3a Practical Uses
 
 _If your code doesn't support ES6, you can't use the new let and const keywords for creating block-scoped local variables. You'll have to resort to classic function scoping offered by IIFEs._
 
@@ -230,6 +232,8 @@ _If your code doesn't support ES6, you can't use the new let and const keywords 
 
   part; // ReferenceError: part is not defined
   ```
+  
+### 3b Examples
 
 _IIFEs can also be used to manage private data by returning functions that create closures for the local variables._
 
@@ -246,6 +250,8 @@ _IIFEs can also be used to manage private data by returning functions that creat
   robot.setPart("🤖");
   console.log(robot.getPart()); // 🤖
   ```
+  
+### 3b Practical Uses
 
 _Let's say you're using jQuery and another library that also assigns to the $ global variable, we can resolve this naming conflict by wrapping the other piece of code with an IIFE that uses $ as a parameter name. We can also do a similar thing if we wanted to capture the global object no matter where we run our code. For example, the global object in the browser is window while Node.js uses global. Aliasing variable names can also be used to optimize code such that it can be minified more efficiently where a JavaScript minifier like UglifyJS can shorten the function's parameter names to single-letter identifiers._
 
