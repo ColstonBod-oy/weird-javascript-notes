@@ -82,7 +82,7 @@
 
 ![Banner][react-logo]
 
-Hello! my name is Colston D. Bod-oy, I'm a React developer and was currently taking my 2nd year of college on the time that I made this repo. I'm an aspiring developer and I would like to work for the big FAANG companies someday 😉.  
+Hello! My name is Colston D. Bod-oy, I'm a React developer, and I was currently taking my 2nd year of college at the time that I made this repo. I'm an aspiring developer and I would like to work for the big FAANG companies someday 😉.  
   
 I created this project so I could keep track of and recall things that I didn't know I could do in JavaScript as I've just recently started learning it, hope you'll find these notes useful! 😎.
 
