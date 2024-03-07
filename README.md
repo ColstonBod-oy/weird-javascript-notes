@@ -17,9 +17,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![GitHub][github-shield]][github-url]&ensp;
-[![Twitter][twitter-shield]][twitter-url]&ensp;
-[![Reddit][reddit-shield]][reddit-url]&ensp;
 
 
 
@@ -43,6 +40,12 @@
     <a href="https://html-css-js.com/js/">JavaScript Cheat Sheet</a>
     ·
     <a href="http://www.developer-cheatsheets.com/react">React Cheat Sheet</a>
+    <br/>
+    <br/>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bodoycolstond@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
+    <a href="https://www.facebook.com/colston.bodoy/"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white"/></a>&nbsp;
+    <a href="https://www.instagram.com/coldz.stone/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"/></a>&nbsp;
+    <a href="https://twitter.com/OyColston"><img alt="Twitter" src="https://img.shields.io/badge/follow-%40OyColston-1DA1F2?logo=twitter&style=for-the-badge"/></a>
   </p>
 </div>
 
@@ -50,41 +53,41 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>📔 Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">📄 About The Project</a>
       <details>
         <summary>1a</summary>
         <ul>
-          <li><a href="#readme-template">README Template</a></li>
+          <li><a href="#readme-template">📣README Template</a></li>
         </ul>
       </details>
     </li>
     <li>
-      <a href="#decoupling-object-properties">Decoupling Object Properties</a>
+      <a href="#decoupling-object-properties">📄 Decoupling Object Properties</a>
       <details>
         <summary>2a</summary>
         <ul>
-          <li><a href="#2a-examples">2a Examples</a></li>
-          <li><a href="#2a-practical-uses">2a Practical Uses</a></li>
+          <li><a href="#2a-examples">2a ▶️Example</a></li>
+          <li><a href="#2a-practical-uses">2a 💡Application</a></li>
         </ul>
       </details>
     </li>
     <li>
-      <a href="#immediately-invoked-function-expression">Immediately Invoked Function Expression</a>
+      <a href="#immediately-invoked-function-expression">📄 Immediately Invoked Function Expression</a>
       <details>
         <summary>3a</summary>
         <ul>
-          <li><a href="#3a-examples">3a Examples</a></li>
-          <li><a href="#3a-practical-uses">3a Practical Uses</a></li>
+          <li><a href="#3a-examples">3a ▶️Example</a></li>
+          <li><a href="#3a-practical-uses">3a 💡Application</a></li>
         </ul>
       </details>
       <details>
         <summary>3b</summary>
         <ul>
-          <li><a href="#3b-examples">3b Examples</a></li>
-          <li><a href="#3b-practical-uses">3b Practical Uses</a></li>
+          <li><a href="#3b-examples">3b ▶️Example</a></li>
+          <li><a href="#3b-practical-uses">3b 💡Application</a></li>
         </ul>
       </details>
     </li>
@@ -98,29 +101,29 @@
 
 ![Banner][react-logo]
 
-Hello! My name is Colston D. Bod-oy, I'm a React and Android developer, and I would be taking my 3rd year of college at the time that I made this repo. I'm an aspiring developer, and I would like to work for the big FAANG companies someday 😉.  
+&emsp;&emsp;&emsp;Hello! I'm Colston D. Bod-oy; I'm a React and Android developer, and I would be taking my 3rd year of college at the time that I made this repo. I'm an aspiring developer, and I would like to work for the big FAANG companies someday 😉.  
   
-I created this project so I could keep track of and recall things that I didn't know I could do in Java and Kotlin, as I've just recently started learning it on a deeper level. I hope you'll find these notes useful! 😎.
+&emsp;&emsp;&emsp;I created this project so I could keep track of and recall things that I didn't know I could do in JavaScript, as I've just recently started learning it on a deeper level. I hope you'll find these notes useful! 😎.
 
 
 ### README Template
 
-Here's where I got this template, btw. Also,  don't forget to follow me on my social media links.
+Btw, here's where I got this template. Also, don't forget to follow me on my social media links.
 
 👉 [📒](https://github.com/othneildrew/Best-README-Template)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top ⤴️</a>)</p>
 
 
 
 <!-- DECOUPLING OBJECT PROPERTIES -->
 ## Decoupling Object Properties 
 
-We could decouple object properties and use their values as properties of another object.
+&emsp;&emsp;&emsp;We could decouple object properties and use their values as properties of another object.
 
-### 2a Examples
+### 2a Example
 
-_Notice how we use the bracket notation instead of the dot-notation for the last 2 properties of the cast object, it's because the decoupled values are not valid JavaScript identifiers (for example, a property name that has a space or a hyphen, or that starts with a number)._
+&emsp;&emsp;&emsp;_Notice how we use the bracket notation instead of the dot notation for the last 2 properties of the cast object. It's because the decoupled values are not valid ```JavaScript``` identifiers (for example, a property name that has a space or a hyphen, or that starts with a number)._
 
   ```js
   const spells = {
@@ -140,9 +143,9 @@ _Notice how we use the bracket notation instead of the dot-notation for the last
   console.log(cast["💧"]);           // 🌊
   ```
 
-### 2a Practical Uses
+### 2a Application
 
-_Below is a basic example of how we could use this feature when working with React's useReducer hook._
+&emsp;&emsp;&emsp;_Below is a basic example of how we could use this feature when working with React's ```useReducer``` hook._
 
   ```js
   const initialState = {
@@ -195,18 +198,18 @@ _Below is a basic example of how we could use this feature when working with Rea
   }
   ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top ⤴️</a>)</p>
 
 
 
 <!-- IMMEDIATELY INVOKED FUNCTION EXPRESSION -->
 ## Immediately Invoked Function Expression 
 
-We can create and call a function expression at the same time.
+&emsp;&emsp;&emsp;We can create and call a function expression at the same time.
 
-### 3a Examples
+### 3a Example
 
-_Notice the different ways we can create an IIFE. For an IIFE to work, we first needed to change the context of the function keyword to be an expression either by enclosing it inside parentheses or using operators. Note that the ! operator will negate the returned boolean value of the IIFE and if the expression doesn't return anything, it would just result to true, while the + operator will try to add the returned value but since it would always have no value on the left-hand side of the operator, no further actions would be executed._
+&emsp;&emsp;&emsp;_Notice the different ways we can create an ```IIFE```. For an ```IIFE``` to work, we first needed to change the context of the function keyword to be an expression, either by enclosing it inside parentheses or using operators. Note that the ```!``` operator will negate the returned boolean value of the ```IIFE```, and if the expression doesn't return anything, it will just result in true, while the ```+``` operator will try to add the returned value, but since it will always have no value on the left-hand side of the operator, no further actions will be executed._
 
   ```js
   var functionEx;
@@ -227,9 +230,9 @@ _Notice the different ways we can create an IIFE. For an IIFE to work, we first 
   }(); // ✔️
   ```
 
-### 3a Practical Uses
+### 3a Application
 
-_If your code doesn't support ES6, you can't use the new let and const keywords for creating block-scoped local variables. You'll have to resort to classic function scoping offered by IIFEs._
+&emsp;&emsp;&emsp;_If your code doesn't support ```ES6```, you can't use the new ```let``` and ```const``` keywords for creating block-scoped local variables. You'll have to resort to the classic function scoping offered by ```IIFEs```._
 
   ```js
   {
@@ -246,10 +249,13 @@ _If your code doesn't support ES6, you can't use the new let and const keywords 
 
   part; // ReferenceError: part is not defined
   ```
-  
-### 3b Examples
 
-_IIFEs can also be used to manage private data by returning functions that create closures for the local variables._
+<p align="right">(<a href="#top">back to top ⤴️</a>)</p>  
+
+  
+### 3b Example
+
+&emsp;&emsp;&emsp;_```IIFEs``` can also be used to manage private data by returning functions that create closures for the local variables._
 
   ```js
   const robot = (function() {
@@ -267,7 +273,7 @@ _IIFEs can also be used to manage private data by returning functions that creat
   
 ### 3b Practical Uses
 
-_Let's say you're using jQuery and another library that also assigns to the $ global variable, we can resolve this naming conflict by wrapping the other piece of code with an IIFE that uses $ as a parameter name. We can also do a similar thing if we wanted to capture the global object no matter where we run our code. For example, the global object in the browser is window while Node.js uses global. Aliasing variable names can also be used to optimize code such that it can be minified more efficiently where a JavaScript minifier like UglifyJS can shorten the function's parameter names to single-letter identifiers._
+&emsp;&emsp;&emsp;_Let's say you're using ```jQuery``` and another library that also assigns to the ```$``` global variable. We can resolve this naming conflict by wrapping the other piece of code with an ```IIFE``` that uses ```$``` as a parameter name. We can also do a similar thing if we want to capture the global object, no matter where we run our code. For example, the global object in the browser is window, while ```Node.js``` uses global. Aliasing variable names can also be used to optimize code so that it can be minified more efficiently. A ```JavaScript``` minifier like ```UglifyJS``` can shorten the function's parameter names to single-letter identifiers._
 
   ```js
   window.$ = function somethingElse() {
@@ -291,7 +297,7 @@ _Let's say you're using jQuery and another library that also assigns to the $ gl
   })(window, document);
   ```
 
-_Not having the let keyword of ES6 can also cause unexpected results when running asynchronous tasks inside a loop as the value for i would immediately be changed until the loop condition wasn't fulfilled anymore, we can use IIFEs again for this case._
+&emsp;&emsp;&emsp;_Not having the ```let``` keyword in ```ES6``` can also cause unexpected results when running asynchronous tasks inside a loop, as the value for ```i``` would immediately be changed until the loop condition wasn't fulfilled anymore. We can use ```IIFEs``` again in this case._
 
   ```js
   for (var i = 0; i < 3; i++) {
@@ -311,16 +317,10 @@ _Not having the let keyword of ES6 can also cause unexpected results when runnin
   }
   ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top ⤴️</a>)</p>
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[github-shield]: https://img.shields.io/github/followers/ColstonBod-oy?style=social
-[github-url]: https://github.com/ColstonBod-oy
-[twitter-shield]: https://img.shields.io/twitter/follow/OyColston?style=social
-[twitter-url]: https://twitter.com/OyColston
-[reddit-shield]: https://img.shields.io/reddit/user-karma/combined/Coldz-Stone?style=social
-[reddit-url]: https://www.reddit.com/user/Coldz-Stone
 [react-logo]: images/react-logo.png
