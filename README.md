@@ -271,7 +271,7 @@ Btw, here's where I got this template. Also, don't forget to follow me on my soc
   console.log(robot.getPart()); // 🤖
   ```
   
-### 3b Practical Uses
+### 3b Application
 
 &emsp;&emsp;&emsp;_Let's say you're using ```jQuery``` and another library that also assigns to the ```$``` global variable. We can resolve this naming conflict by wrapping the other piece of code with an ```IIFE``` that uses ```$``` as a parameter name. We can also do a similar thing if we want to capture the global object, no matter where we run our code. For example, the global object in the browser is window, while ```Node.js``` uses global. Aliasing variable names can also be used to optimize code so that it can be minified more efficiently. A ```JavaScript``` minifier like ```UglifyJS``` can shorten the function's parameter names to single-letter identifiers._
 
