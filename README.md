@@ -69,8 +69,8 @@
       <details>
         <summary>2a</summary>
         <ul>
-          <li><a href="#2a-examples">2a ▶️Example</a></li>
-          <li><a href="#2a-practical-uses">2a 💡Application</a></li>
+          <li><a href="#2a-example">2a ▶️Example</a></li>
+          <li><a href="#2a-application">2a 💡Application</a></li>
         </ul>
       </details>
     </li>
@@ -79,15 +79,15 @@
       <details>
         <summary>3a</summary>
         <ul>
-          <li><a href="#3a-examples">3a ▶️Example</a></li>
-          <li><a href="#3a-practical-uses">3a 💡Application</a></li>
+          <li><a href="#3a-example">3a ▶️Example</a></li>
+          <li><a href="#3a-application">3a 💡Application</a></li>
         </ul>
       </details>
       <details>
         <summary>3b</summary>
         <ul>
-          <li><a href="#3b-examples">3b ▶️Example</a></li>
-          <li><a href="#3b-practical-uses">3b 💡Application</a></li>
+          <li><a href="#3b-example">3b ▶️Example</a></li>
+          <li><a href="#3b-application">3b 💡Application</a></li>
         </ul>
       </details>
     </li>
