@@ -70,7 +70,7 @@
         <summary>2a</summary>
         <ul>
           <li><a href="#2a-example">2a ▶️Example</a></li>
-          <li><a href="#2a-application">2a 💡Application</a></li>
+          <li><a href="#2a-description">2a 💡Description</a></li>
         </ul>
       </details>
     </li>
@@ -80,14 +80,14 @@
         <summary>3a</summary>
         <ul>
           <li><a href="#3a-example">3a ▶️Example</a></li>
-          <li><a href="#3a-application">3a 💡Application</a></li>
+          <li><a href="#3a-description">3a 💡Description</a></li>
         </ul>
       </details>
       <details>
         <summary>3b</summary>
         <ul>
           <li><a href="#3b-example">3b ▶️Example</a></li>
-          <li><a href="#3b-application">3b 💡Application</a></li>
+          <li><a href="#3b-description">3b 💡Description</a></li>
         </ul>
       </details>
     </li>
@@ -143,7 +143,7 @@ Btw, here's where I got this template. Also, don't forget to follow me on my soc
   console.log(cast["💧"]);           // 🌊
   ```
 
-### 2a Application
+### 2a Description
 
 &emsp;&emsp;&emsp;_Below is a basic example of how we could use this feature when working with React's ```useReducer``` hook._
 
@@ -230,7 +230,7 @@ Btw, here's where I got this template. Also, don't forget to follow me on my soc
   }(); // ✔️
   ```
 
-### 3a Application
+### 3a Description
 
 &emsp;&emsp;&emsp;_If your code doesn't support ```ES6```, you can't use the new ```let``` and ```const``` keywords for creating block-scoped local variables. You'll have to resort to the classic function scoping offered by ```IIFEs```._
 
@@ -271,7 +271,7 @@ Btw, here's where I got this template. Also, don't forget to follow me on my soc
   console.log(robot.getPart()); // 🤖
   ```
   
-### 3b Application
+### 3b Description
 
 &emsp;&emsp;&emsp;_Let's say you're using ```jQuery``` and another library that also assigns to the ```$``` global variable. We can resolve this naming conflict by wrapping the other piece of code with an ```IIFE``` that uses ```$``` as a parameter name. We can also do a similar thing if we want to capture the global object, no matter where we run our code. For example, the global object in the browser is window, while ```Node.js``` uses global. Aliasing variable names can also be used to optimize code so that it can be minified more efficiently. A ```JavaScript``` minifier like ```UglifyJS``` can shorten the function's parameter names to single-letter identifiers._
 
