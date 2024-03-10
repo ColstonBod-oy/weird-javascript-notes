@@ -36,7 +36,7 @@ jobs:
           pip install mkdocs mkdocs-material Pygments
           cat README.md > docs/index.md
           echo "---" > temp_file
-          echo "title: Weird Java & Kotlin Notes" >> temp_file
+          echo "title: Weird JavaScript Notes" >> temp_file
           echo "hide:" >> temp_file
           echo "  - navigation" >> temp_file
           echo "---" >> temp_file
