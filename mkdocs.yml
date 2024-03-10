@@ -1,7 +1,7 @@
-site_name: Weird Java & Kotlin Notes
-site_url: https://ColstonBod-oy.github.io/weird-java-kotlin-notes/
-repo_name: weird-java-kotlin-notes
-repo_url: https://github.com/ColstonBod-oy/weird-java-kotlin-notes
+site_name: Weird JavaScript Notes
+site_url: https://ColstonBod-oy.github.io/weird-javascript-notes/
+repo_name: weird-javascript-notes
+repo_url: https://github.com/ColstonBod-oy/weird-javascript-notes
 
 theme:
   name: material
