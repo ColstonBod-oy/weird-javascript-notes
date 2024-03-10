@@ -42,4 +42,4 @@ jobs:
           echo "---" >> temp_file
           cat docs/index.md >> temp_file
           mv temp_file docs/index.md
-          mkdocs gh-deploy
+          mkdocs gh-deploy --force --clean --verbose
