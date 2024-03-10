@@ -43,6 +43,8 @@
     <br/>
     <br/>
     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bodoycolstond@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
+    <a href="https://github.com/ColstonBod-oy"><img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/></a>&nbsp;
+    <a href="https://www.linkedin.com/in/colston-bod-oy-60a7521a4/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
     <a href="https://www.facebook.com/colston.bodoy/"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white"/></a>&nbsp;
     <a href="https://www.instagram.com/coldz.stone/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"/></a>&nbsp;
     <a href="https://twitter.com/OyColston"><img alt="Twitter" src="https://img.shields.io/badge/follow-%40OyColston-1DA1F2?logo=twitter&style=for-the-badge"/></a>
